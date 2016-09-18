@@ -1,0 +1,3 @@
+rootProject.name = 'RNSlotMachine'
+
+include ':app'
