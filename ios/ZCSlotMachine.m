@@ -52,7 +52,7 @@ static const NSUInteger kMinTurn = 3;
         
         _slotScrollLayerArray = [NSMutableArray array];
         
-        self.singleUnitDuration = 0.14f;
+        self.singleUnitDuration = 0.0514f;
         
         _contentInset = UIEdgeInsetsMake(0, 0, 0, 0);
     }

@@ -13,6 +13,25 @@
 		00C302E91ABCBA2D00DB3ED1 /* libRCTNetwork.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 00C302DC1ABCB9D200DB3ED1 /* libRCTNetwork.a */; };
 		00C302EA1ABCBA2D00DB3ED1 /* libRCTVibration.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 00C302E41ABCB9EE00DB3ED1 /* libRCTVibration.a */; };
 		00E356F31AD99517003FC87E /* ExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* ExampleTests.m */; };
+		04BB0D071D8EC065006585AE /* libRNSlotMachine.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 04BB0CF01D8EBBD0006585AE /* libRNSlotMachine.a */; };
+		04BB0D411D8EE02F006585AE /* Batman@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 04BB0D381D8EE02F006585AE /* Batman@2x.png */; };
+		04BB0D421D8EE02F006585AE /* Doraemon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 04BB0D391D8EE02F006585AE /* Doraemon@2x.png */; };
+		04BB0D431D8EE02F006585AE /* Mario@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 04BB0D3A1D8EE02F006585AE /* Mario@2x.png */; };
+		04BB0D441D8EE02F006585AE /* Nobi Nobita@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 04BB0D3B1D8EE02F006585AE /* Nobi Nobita@2x.png */; };
+		04BB0D451D8EE02F006585AE /* SlotMachineBackground@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 04BB0D3C1D8EE02F006585AE /* SlotMachineBackground@2x.png */; };
+		04BB0D461D8EE02F006585AE /* SlotMachineCover@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 04BB0D3D1D8EE02F006585AE /* SlotMachineCover@2x.png */; };
+		04BB0D471D8EE02F006585AE /* StartBtn_H@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 04BB0D3E1D8EE02F006585AE /* StartBtn_H@2x.png */; };
+		04BB0D481D8EE02F006585AE /* StartBtn_N@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 04BB0D3F1D8EE02F006585AE /* StartBtn_N@2x.png */; };
+		04BB0D641D8EE8DE006585AE /* 1@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 04BB0D5B1D8EE8DE006585AE /* 1@3x.png */; };
+		04BB0D651D8EE8DE006585AE /* 2@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 04BB0D5C1D8EE8DE006585AE /* 2@3x.png */; };
+		04BB0D661D8EE8DE006585AE /* 3@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 04BB0D5D1D8EE8DE006585AE /* 3@3x.png */; };
+		04BB0D671D8EE8DE006585AE /* 4@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 04BB0D5E1D8EE8DE006585AE /* 4@3x.png */; };
+		04BB0D681D8EE8DE006585AE /* 5@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 04BB0D5F1D8EE8DE006585AE /* 5@3x.png */; };
+		04BB0D691D8EE8DE006585AE /* 6@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 04BB0D601D8EE8DE006585AE /* 6@3x.png */; };
+		04BB0D6A1D8EE8DE006585AE /* 7@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 04BB0D611D8EE8DE006585AE /* 7@3x.png */; };
+		04BB0D6B1D8EE8DE006585AE /* 8@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 04BB0D621D8EE8DE006585AE /* 8@3x.png */; };
+		04BB0D6C1D8EE8DE006585AE /* 9@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 04BB0D631D8EE8DE006585AE /* 9@3x.png */; };
+		04BB0D6E1D8EEA0E006585AE /* 0@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 04BB0D6D1D8EEA0E006585AE /* 0@3x.png */; };
 		133E29F31AD74F7200F7D852 /* libRCTLinking.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 78C398B91ACF4ADC00677621 /* libRCTLinking.a */; };
 		139105C61AF99C1200B5F7CC /* libRCTSettings.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 139105C11AF99BAD00B5F7CC /* libRCTSettings.a */; };
 		139FDEF61B0652A700C62182 /* libRCTWebSocket.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 139FDEF41B06529B00C62182 /* libRCTWebSocket.a */; };
@@ -68,6 +87,13 @@
 			remoteGlobalIDString = 13B07F861A680F5B00A75B9A;
 			remoteInfo = Example;
 		};
+		04BB0CEF1D8EBBD0006585AE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04BB0CE11D8EBBD0006585AE /* RNSlotMachine.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 739DC2C01D8E992800A30C9F;
+			remoteInfo = RNSlotMachine;
+		};
 		139105C01AF99BAD00B5F7CC /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 139105B61AF99BAD00B5F7CC /* RCTSettings.xcodeproj */;
@@ -88,13 +114,6 @@
 			proxyType = 2;
 			remoteGlobalIDString = 83CBBA2E1A601D0E00E9B192;
 			remoteInfo = React;
-		};
-		739DC3071D8EA0AB00A30C9F /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 739DC2EF1D8EA0AB00A30C9F /* RNSlotMachine.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 739DC2C01D8E992800A30C9F;
-			remoteInfo = RNSlotMachine;
 		};
 		78C398B81ACF4ADC00677621 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -122,6 +141,25 @@
 		00E356EE1AD99517003FC87E /* ExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00E356F21AD99517003FC87E /* ExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ExampleTests.m; sourceTree = "<group>"; };
+		04BB0CE11D8EBBD0006585AE /* RNSlotMachine.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RNSlotMachine.xcodeproj; path = ../../ios/RNSlotMachine.xcodeproj; sourceTree = "<group>"; };
+		04BB0D381D8EE02F006585AE /* Batman@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Batman@2x.png"; sourceTree = "<group>"; };
+		04BB0D391D8EE02F006585AE /* Doraemon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Doraemon@2x.png"; sourceTree = "<group>"; };
+		04BB0D3A1D8EE02F006585AE /* Mario@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Mario@2x.png"; sourceTree = "<group>"; };
+		04BB0D3B1D8EE02F006585AE /* Nobi Nobita@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Nobi Nobita@2x.png"; sourceTree = "<group>"; };
+		04BB0D3C1D8EE02F006585AE /* SlotMachineBackground@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SlotMachineBackground@2x.png"; sourceTree = "<group>"; };
+		04BB0D3D1D8EE02F006585AE /* SlotMachineCover@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SlotMachineCover@2x.png"; sourceTree = "<group>"; };
+		04BB0D3E1D8EE02F006585AE /* StartBtn_H@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "StartBtn_H@2x.png"; sourceTree = "<group>"; };
+		04BB0D3F1D8EE02F006585AE /* StartBtn_N@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "StartBtn_N@2x.png"; sourceTree = "<group>"; };
+		04BB0D5B1D8EE8DE006585AE /* 1@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "1@3x.png"; sourceTree = "<group>"; };
+		04BB0D5C1D8EE8DE006585AE /* 2@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "2@3x.png"; sourceTree = "<group>"; };
+		04BB0D5D1D8EE8DE006585AE /* 3@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "3@3x.png"; sourceTree = "<group>"; };
+		04BB0D5E1D8EE8DE006585AE /* 4@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "4@3x.png"; sourceTree = "<group>"; };
+		04BB0D5F1D8EE8DE006585AE /* 5@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "5@3x.png"; sourceTree = "<group>"; };
+		04BB0D601D8EE8DE006585AE /* 6@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "6@3x.png"; sourceTree = "<group>"; };
+		04BB0D611D8EE8DE006585AE /* 7@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "7@3x.png"; sourceTree = "<group>"; };
+		04BB0D621D8EE8DE006585AE /* 8@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "8@3x.png"; sourceTree = "<group>"; };
+		04BB0D631D8EE8DE006585AE /* 9@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "9@3x.png"; sourceTree = "<group>"; };
+		04BB0D6D1D8EEA0E006585AE /* 0@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "0@3x.png"; sourceTree = "<group>"; };
 		139105B61AF99BAD00B5F7CC /* RCTSettings.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTSettings.xcodeproj; path = "../node_modules/react-native/Libraries/Settings/RCTSettings.xcodeproj"; sourceTree = "<group>"; };
 		139FDEE61B06529A00C62182 /* RCTWebSocket.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTWebSocket.xcodeproj; path = "../node_modules/react-native/Libraries/WebSocket/RCTWebSocket.xcodeproj"; sourceTree = "<group>"; };
 		13B07F961A680F5B00A75B9A /* Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -132,7 +170,6 @@
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = Example/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = Example/main.m; sourceTree = "<group>"; };
 		146833FF1AC3E56700842450 /* React.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = React.xcodeproj; path = "../node_modules/react-native/React/React.xcodeproj"; sourceTree = "<group>"; };
-		739DC2EF1D8EA0AB00A30C9F /* RNSlotMachine.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RNSlotMachine.xcodeproj; path = ../../ios/RNSlotMachine.xcodeproj; sourceTree = "<group>"; };
 		78C398B01ACF4ADC00677621 /* RCTLinking.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTLinking.xcodeproj; path = "../node_modules/react-native/Libraries/LinkingIOS/RCTLinking.xcodeproj"; sourceTree = "<group>"; };
 		832341B01AAA6A8300B99B32 /* RCTText.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTText.xcodeproj; path = "../node_modules/react-native/Libraries/Text/RCTText.xcodeproj"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -150,6 +187,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04BB0D071D8EC065006585AE /* libRNSlotMachine.a in Frameworks */,
 				146834051AC3E58100842450 /* libReact.a in Frameworks */,
 				00C302E51ABCBA2D00DB3ED1 /* libRCTActionSheet.a in Frameworks */,
 				00C302E71ABCBA2D00DB3ED1 /* libRCTGeolocation.a in Frameworks */,
@@ -223,6 +261,40 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		04BB0CE21D8EBBD0006585AE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				04BB0CF01D8EBBD0006585AE /* libRNSlotMachine.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		04BB0D401D8EE02F006585AE /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				04BB0D6D1D8EEA0E006585AE /* 0@3x.png */,
+				04BB0D5B1D8EE8DE006585AE /* 1@3x.png */,
+				04BB0D5C1D8EE8DE006585AE /* 2@3x.png */,
+				04BB0D5D1D8EE8DE006585AE /* 3@3x.png */,
+				04BB0D5E1D8EE8DE006585AE /* 4@3x.png */,
+				04BB0D5F1D8EE8DE006585AE /* 5@3x.png */,
+				04BB0D601D8EE8DE006585AE /* 6@3x.png */,
+				04BB0D611D8EE8DE006585AE /* 7@3x.png */,
+				04BB0D621D8EE8DE006585AE /* 8@3x.png */,
+				04BB0D631D8EE8DE006585AE /* 9@3x.png */,
+				04BB0D381D8EE02F006585AE /* Batman@2x.png */,
+				04BB0D391D8EE02F006585AE /* Doraemon@2x.png */,
+				04BB0D3A1D8EE02F006585AE /* Mario@2x.png */,
+				04BB0D3B1D8EE02F006585AE /* Nobi Nobita@2x.png */,
+				04BB0D3C1D8EE02F006585AE /* SlotMachineBackground@2x.png */,
+				04BB0D3D1D8EE02F006585AE /* SlotMachineCover@2x.png */,
+				04BB0D3E1D8EE02F006585AE /* StartBtn_H@2x.png */,
+				04BB0D3F1D8EE02F006585AE /* StartBtn_N@2x.png */,
+			);
+			name = Images;
+			path = ../../ios;
+			sourceTree = "<group>";
+		};
 		139105B71AF99BAD00B5F7CC /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -242,6 +314,7 @@
 		13B07FAE1A68108700A75B9A /* Example */ = {
 			isa = PBXGroup;
 			children = (
+				04BB0D401D8EE02F006585AE /* Images */,
 				008F07F21AC5B25A0029DE68 /* main.jsbundle */,
 				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
 				13B07FB01A68108700A75B9A /* AppDelegate.m */,
@@ -261,14 +334,6 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		739DC2F01D8EA0AB00A30C9F /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				739DC3081D8EA0AB00A30C9F /* libRNSlotMachine.a */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
 		78C398B11ACF4ADC00677621 /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -280,7 +345,7 @@
 		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
 			isa = PBXGroup;
 			children = (
-				739DC2EF1D8EA0AB00A30C9F /* RNSlotMachine.xcodeproj */,
+				04BB0CE11D8EBBD0006585AE /* RNSlotMachine.xcodeproj */,
 				146833FF1AC3E56700842450 /* React.xcodeproj */,
 				00C302A71ABCB8CE00DB3ED1 /* RCTActionSheet.xcodeproj */,
 				00C302B51ABCB90400DB3ED1 /* RCTGeolocation.xcodeproj */,
@@ -369,7 +434,7 @@
 		83CBB9F71A601CBA00E9B192 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0610;
+				LastUpgradeCheck = 0730;
 				ORGANIZATIONNAME = Facebook;
 				TargetAttributes = {
 					00E356ED1AD99517003FC87E = {
@@ -431,8 +496,8 @@
 					ProjectRef = 146833FF1AC3E56700842450 /* React.xcodeproj */;
 				},
 				{
-					ProductGroup = 739DC2F01D8EA0AB00A30C9F /* Products */;
-					ProjectRef = 739DC2EF1D8EA0AB00A30C9F /* RNSlotMachine.xcodeproj */;
+					ProductGroup = 04BB0CE21D8EBBD0006585AE /* Products */;
+					ProjectRef = 04BB0CE11D8EBBD0006585AE /* RNSlotMachine.xcodeproj */;
 				},
 			);
 			projectRoot = "";
@@ -479,6 +544,13 @@
 			remoteRef = 00C302E31ABCB9EE00DB3ED1 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
+		04BB0CF01D8EBBD0006585AE /* libRNSlotMachine.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libRNSlotMachine.a;
+			remoteRef = 04BB0CEF1D8EBBD0006585AE /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
 		139105C11AF99BAD00B5F7CC /* libRCTSettings.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
@@ -498,13 +570,6 @@
 			fileType = archive.ar;
 			path = libReact.a;
 			remoteRef = 146834031AC3E56700842450 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		739DC3081D8EA0AB00A30C9F /* libRNSlotMachine.a */ = {
-			isa = PBXReferenceProxy;
-			fileType = archive.ar;
-			path = libRNSlotMachine.a;
-			remoteRef = 739DC3071D8EA0AB00A30C9F /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 		78C398B91ACF4ADC00677621 /* libRCTLinking.a */ = {
@@ -535,8 +600,26 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04BB0D6B1D8EE8DE006585AE /* 8@3x.png in Resources */,
+				04BB0D671D8EE8DE006585AE /* 4@3x.png in Resources */,
+				04BB0D6E1D8EEA0E006585AE /* 0@3x.png in Resources */,
+				04BB0D651D8EE8DE006585AE /* 2@3x.png in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				04BB0D471D8EE02F006585AE /* StartBtn_H@2x.png in Resources */,
+				04BB0D451D8EE02F006585AE /* SlotMachineBackground@2x.png in Resources */,
+				04BB0D461D8EE02F006585AE /* SlotMachineCover@2x.png in Resources */,
+				04BB0D421D8EE02F006585AE /* Doraemon@2x.png in Resources */,
+				04BB0D481D8EE02F006585AE /* StartBtn_N@2x.png in Resources */,
+				04BB0D641D8EE8DE006585AE /* 1@3x.png in Resources */,
+				04BB0D6C1D8EE8DE006585AE /* 9@3x.png in Resources */,
+				04BB0D441D8EE02F006585AE /* Nobi Nobita@2x.png in Resources */,
 				13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */,
+				04BB0D431D8EE02F006585AE /* Mario@2x.png in Resources */,
+				04BB0D6A1D8EE8DE006585AE /* 7@3x.png in Resources */,
+				04BB0D691D8EE8DE006585AE /* 6@3x.png in Resources */,
+				04BB0D681D8EE8DE006585AE /* 5@3x.png in Resources */,
+				04BB0D411D8EE02F006585AE /* Batman@2x.png in Resources */,
+				04BB0D661D8EE8DE006585AE /* 3@3x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -611,6 +694,7 @@
 				INFOPLIST_FILE = ExampleTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Example.app/Example";
 			};
@@ -624,6 +708,7 @@
 				INFOPLIST_FILE = ExampleTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Example.app/Example";
 			};
@@ -646,6 +731,7 @@
 					"-ObjC",
 					"-lc++",
 				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = Example;
 			};
 			name = Debug;
@@ -666,6 +752,7 @@
 					"-ObjC",
 					"-lc++",
 				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = Example;
 			};
 			name = Release;
@@ -690,6 +777,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
