@@ -16,18 +16,11 @@ NativeModules = ReactNative.NativeModules;
 
 // RNSlotMachine = NativeModules.RNSlotMachine;
 
-var modules = "RNSlotMachine:"+JSON.stringify(SlotMachine);
-import {
-  AppRegistry,
-  StyleSheet,
-  Text,
-  TouchableOpacity,
-  Image,
-  View
-} from 'react-native';
+var modules = "RNSlotMachine:" + JSON.stringify(SlotMachine);
+import { AppRegistry, StyleSheet, Text, TouchableOpacity, Image, View } from 'react-native';
 
 class Example extends Component {
-   constructor(props) {
+  constructor(props) {
     super(props);
 
     this.camera = null;
@@ -41,30 +34,28 @@ class Example extends Component {
     this.start = this.start.bind(this);
   }
 
- start() {
+  start() {
     if (this.camera) {
       this.camera.start({});
     }
   }
-  
+
   render() {
     return (
-      <View style={styles.container}>
-        <SlotMachine ref={(cam) => {
-            this.camera = cam;
-          }}
-          style={styles.chart} />
-        
+      <View style={ styles.container }>
+        <SlotMachine
+                     ref={ (cam) => {
+                             this.camera = cam;
+                           } }
+                     style={ styles.slot }
+                      />
         <TouchableOpacity
-                style={styles.captureButton}
-                onPress={this.start}
-            >
-              <Image
-                  source={require('./assets/ic_photo_camera_36pt.png')}
-              />
-            </TouchableOpacity>
+                          style={ styles.captureButton }
+                          onPress={ this.start }>
+          <Image source={ require('./assets/ic_photo_camera_36pt.png') } />
+        </TouchableOpacity>
       </View>
-    );
+      );
   }
 }
 
@@ -74,6 +65,14 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
     alignItems: 'center',
     backgroundColor: '#F5FCFF',
+  // width:300,
+  // height:100
+  },
+  slot: {
+    position: 'absolute',
+    top: 200,
+    left:100,
+    backgroundColor: "#00ff00"
   },
   welcome: {
     fontSize: 20,

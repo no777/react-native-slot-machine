@@ -7,7 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		739DC2C51D8E992800A30C9F /* RNSlotMachineManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 739DC2C41D8E992800A30C9F /* RNSlotMachineManager.m */; };
+		048E39651DA92B8500ECE0BE /* RNSlotMachineView.m in Sources */ = {isa = PBXBuildFile; fileRef = 048E39641DA92B8500ECE0BE /* RNSlotMachineView.m */; };
+		048E399D1DA9324900ECE0BE /* UIImage+Scale.m in Sources */ = {isa = PBXBuildFile; fileRef = 048E399C1DA9324900ECE0BE /* UIImage+Scale.m */; };
+		739DC2C51D8E992800A30C9F /* RNSlotMachineViewManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 739DC2C41D8E992800A30C9F /* RNSlotMachineViewManager.m */; };
 		739DC2C91D8E993700A30C9F /* ZCSlotMachine.h in Sources */ = {isa = PBXBuildFile; fileRef = 739DC2AA1D8E97DE00A30C9F /* ZCSlotMachine.h */; };
 		739DC2CA1D8E993700A30C9F /* ZCSlotMachine.m in Sources */ = {isa = PBXBuildFile; fileRef = 739DC2AB1D8E97DE00A30C9F /* ZCSlotMachine.m */; };
 /* End PBXBuildFile section */
@@ -105,6 +107,10 @@
 		00C302DF1ABCB9EE00DB3ED1 /* RCTVibration.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTVibration.xcodeproj; path = "../node_modules/react-native/Libraries/Vibration/RCTVibration.xcodeproj"; sourceTree = "<group>"; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00E356F21AD99517003FC87E /* RNSlotMachineTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RNSlotMachineTests.m; sourceTree = "<group>"; };
+		048E39631DA92B8500ECE0BE /* RNSlotMachineView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNSlotMachineView.h; sourceTree = "<group>"; };
+		048E39641DA92B8500ECE0BE /* RNSlotMachineView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNSlotMachineView.m; sourceTree = "<group>"; };
+		048E399B1DA9324900ECE0BE /* UIImage+Scale.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Scale.h"; sourceTree = "<group>"; };
+		048E399C1DA9324900ECE0BE /* UIImage+Scale.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Scale.m"; sourceTree = "<group>"; };
 		04BB0D301D8EDFCE006585AE /* Batman@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Batman@2x.png"; sourceTree = "<group>"; };
 		04BB0D311D8EDFCE006585AE /* Doraemon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Doraemon@2x.png"; sourceTree = "<group>"; };
 		04BB0D321D8EDFCE006585AE /* Mario@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Mario@2x.png"; sourceTree = "<group>"; };
@@ -119,8 +125,8 @@
 		739DC2AA1D8E97DE00A30C9F /* ZCSlotMachine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZCSlotMachine.h; sourceTree = "<group>"; };
 		739DC2AB1D8E97DE00A30C9F /* ZCSlotMachine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZCSlotMachine.m; sourceTree = "<group>"; };
 		739DC2C01D8E992800A30C9F /* libRNSlotMachine.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libRNSlotMachine.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		739DC2C21D8E992800A30C9F /* RNSlotMachineManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RNSlotMachineManager.h; sourceTree = "<group>"; };
-		739DC2C41D8E992800A30C9F /* RNSlotMachineManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RNSlotMachineManager.m; sourceTree = "<group>"; };
+		739DC2C21D8E992800A30C9F /* RNSlotMachineViewManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RNSlotMachineViewManager.h; sourceTree = "<group>"; };
+		739DC2C41D8E992800A30C9F /* RNSlotMachineViewManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RNSlotMachineViewManager.m; sourceTree = "<group>"; };
 		78C398B01ACF4ADC00677621 /* RCTLinking.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTLinking.xcodeproj; path = "../node_modules/react-native/Libraries/LinkingIOS/RCTLinking.xcodeproj"; sourceTree = "<group>"; };
 		832341B01AAA6A8300B99B32 /* RCTText.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTText.xcodeproj; path = "../node_modules/react-native/Libraries/Text/RCTText.xcodeproj"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -244,8 +250,12 @@
 		739DC2C11D8E992800A30C9F /* RNSlotMachine */ = {
 			isa = PBXGroup;
 			children = (
-				739DC2C21D8E992800A30C9F /* RNSlotMachineManager.h */,
-				739DC2C41D8E992800A30C9F /* RNSlotMachineManager.m */,
+				739DC2C21D8E992800A30C9F /* RNSlotMachineViewManager.h */,
+				048E399B1DA9324900ECE0BE /* UIImage+Scale.h */,
+				048E399C1DA9324900ECE0BE /* UIImage+Scale.m */,
+				739DC2C41D8E992800A30C9F /* RNSlotMachineViewManager.m */,
+				048E39631DA92B8500ECE0BE /* RNSlotMachineView.h */,
+				048E39641DA92B8500ECE0BE /* RNSlotMachineView.m */,
 			);
 			path = RNSlotMachine;
 			sourceTree = "<group>";
@@ -477,9 +487,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				048E39651DA92B8500ECE0BE /* RNSlotMachineView.m in Sources */,
+				048E399D1DA9324900ECE0BE /* UIImage+Scale.m in Sources */,
 				739DC2C91D8E993700A30C9F /* ZCSlotMachine.h in Sources */,
 				739DC2CA1D8E993700A30C9F /* ZCSlotMachine.m in Sources */,
-				739DC2C51D8E992800A30C9F /* RNSlotMachineManager.m in Sources */,
+				739DC2C51D8E992800A30C9F /* RNSlotMachineViewManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -493,7 +505,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_TESTABILITY = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
@@ -507,7 +519,7 @@
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GCC_NO_COMMON_BLOCKS = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;

@@ -13,25 +13,38 @@
 		00C302E91ABCBA2D00DB3ED1 /* libRCTNetwork.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 00C302DC1ABCB9D200DB3ED1 /* libRCTNetwork.a */; };
 		00C302EA1ABCBA2D00DB3ED1 /* libRCTVibration.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 00C302E41ABCB9EE00DB3ED1 /* libRCTVibration.a */; };
 		00E356F31AD99517003FC87E /* ExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* ExampleTests.m */; };
+		048E3A001DA9424000ECE0BE /* 0@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 048E39E11DA9424000ECE0BE /* 0@3x.png */; };
+		048E3A011DA9424000ECE0BE /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = 048E39E21DA9424000ECE0BE /* 1.png */; };
+		048E3A021DA9424000ECE0BE /* 1@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 048E39E31DA9424000ECE0BE /* 1@3x.png */; };
+		048E3A031DA9424000ECE0BE /* 2.png in Resources */ = {isa = PBXBuildFile; fileRef = 048E39E41DA9424000ECE0BE /* 2.png */; };
+		048E3A041DA9424000ECE0BE /* 2@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 048E39E51DA9424000ECE0BE /* 2@3x.png */; };
+		048E3A051DA9424000ECE0BE /* 3.png in Resources */ = {isa = PBXBuildFile; fileRef = 048E39E61DA9424000ECE0BE /* 3.png */; };
+		048E3A061DA9424000ECE0BE /* 3@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 048E39E71DA9424000ECE0BE /* 3@3x.png */; };
+		048E3A071DA9424000ECE0BE /* 4.png in Resources */ = {isa = PBXBuildFile; fileRef = 048E39E81DA9424000ECE0BE /* 4.png */; };
+		048E3A081DA9424000ECE0BE /* 4@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 048E39E91DA9424000ECE0BE /* 4@3x.png */; };
+		048E3A091DA9424000ECE0BE /* 5.png in Resources */ = {isa = PBXBuildFile; fileRef = 048E39EA1DA9424000ECE0BE /* 5.png */; };
+		048E3A0A1DA9424000ECE0BE /* 5@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 048E39EB1DA9424000ECE0BE /* 5@3x.png */; };
+		048E3A0B1DA9424000ECE0BE /* 6.png in Resources */ = {isa = PBXBuildFile; fileRef = 048E39EC1DA9424000ECE0BE /* 6.png */; };
+		048E3A0C1DA9424000ECE0BE /* 6@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 048E39ED1DA9424000ECE0BE /* 6@3x.png */; };
+		048E3A0D1DA9424000ECE0BE /* 7.png in Resources */ = {isa = PBXBuildFile; fileRef = 048E39EE1DA9424000ECE0BE /* 7.png */; };
+		048E3A0E1DA9424000ECE0BE /* 7@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 048E39EF1DA9424000ECE0BE /* 7@3x.png */; };
+		048E3A0F1DA9424000ECE0BE /* 8.png in Resources */ = {isa = PBXBuildFile; fileRef = 048E39F01DA9424000ECE0BE /* 8.png */; };
+		048E3A101DA9424000ECE0BE /* 8@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 048E39F11DA9424000ECE0BE /* 8@3x.png */; };
+		048E3A111DA9424000ECE0BE /* 9.png in Resources */ = {isa = PBXBuildFile; fileRef = 048E39F21DA9424000ECE0BE /* 9.png */; };
+		048E3A121DA9424000ECE0BE /* 9@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 048E39F31DA9424000ECE0BE /* 9@3x.png */; };
+		048E3A131DA9424000ECE0BE /* Batman@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 048E39F41DA9424000ECE0BE /* Batman@2x.png */; };
+		048E3A141DA9424000ECE0BE /* Doraemon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 048E39F51DA9424000ECE0BE /* Doraemon@2x.png */; };
+		048E3A151DA9424000ECE0BE /* Mario@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 048E39F61DA9424000ECE0BE /* Mario@2x.png */; };
+		048E3A161DA9424000ECE0BE /* Nobi Nobita@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 048E39F71DA9424000ECE0BE /* Nobi Nobita@2x.png */; };
+		048E3A171DA9424000ECE0BE /* SlotMachineBackground.psd in Resources */ = {isa = PBXBuildFile; fileRef = 048E39F81DA9424000ECE0BE /* SlotMachineBackground.psd */; };
+		048E3A181DA9424000ECE0BE /* SlotMachineBackground@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 048E39F91DA9424000ECE0BE /* SlotMachineBackground@2x.png */; };
+		048E3A191DA9424000ECE0BE /* SlotMachineBackground_3@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 048E39FA1DA9424000ECE0BE /* SlotMachineBackground_3@2x.png */; };
+		048E3A1A1DA9424000ECE0BE /* SlotMachineCover.psd in Resources */ = {isa = PBXBuildFile; fileRef = 048E39FB1DA9424000ECE0BE /* SlotMachineCover.psd */; };
+		048E3A1B1DA9424000ECE0BE /* SlotMachineCover@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 048E39FC1DA9424000ECE0BE /* SlotMachineCover@2x.png */; };
+		048E3A1C1DA9424000ECE0BE /* SlotMachineCover_3@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 048E39FD1DA9424000ECE0BE /* SlotMachineCover_3@2x.png */; };
+		048E3A1D1DA9424000ECE0BE /* StartBtn_H@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 048E39FE1DA9424000ECE0BE /* StartBtn_H@2x.png */; };
+		048E3A1E1DA9424000ECE0BE /* StartBtn_N@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 048E39FF1DA9424000ECE0BE /* StartBtn_N@2x.png */; };
 		04BB0D071D8EC065006585AE /* libRNSlotMachine.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 04BB0CF01D8EBBD0006585AE /* libRNSlotMachine.a */; };
-		04BB0D411D8EE02F006585AE /* Batman@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 04BB0D381D8EE02F006585AE /* Batman@2x.png */; };
-		04BB0D421D8EE02F006585AE /* Doraemon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 04BB0D391D8EE02F006585AE /* Doraemon@2x.png */; };
-		04BB0D431D8EE02F006585AE /* Mario@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 04BB0D3A1D8EE02F006585AE /* Mario@2x.png */; };
-		04BB0D441D8EE02F006585AE /* Nobi Nobita@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 04BB0D3B1D8EE02F006585AE /* Nobi Nobita@2x.png */; };
-		04BB0D451D8EE02F006585AE /* SlotMachineBackground@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 04BB0D3C1D8EE02F006585AE /* SlotMachineBackground@2x.png */; };
-		04BB0D461D8EE02F006585AE /* SlotMachineCover@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 04BB0D3D1D8EE02F006585AE /* SlotMachineCover@2x.png */; };
-		04BB0D471D8EE02F006585AE /* StartBtn_H@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 04BB0D3E1D8EE02F006585AE /* StartBtn_H@2x.png */; };
-		04BB0D481D8EE02F006585AE /* StartBtn_N@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 04BB0D3F1D8EE02F006585AE /* StartBtn_N@2x.png */; };
-		04BB0D641D8EE8DE006585AE /* 1@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 04BB0D5B1D8EE8DE006585AE /* 1@3x.png */; };
-		04BB0D651D8EE8DE006585AE /* 2@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 04BB0D5C1D8EE8DE006585AE /* 2@3x.png */; };
-		04BB0D661D8EE8DE006585AE /* 3@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 04BB0D5D1D8EE8DE006585AE /* 3@3x.png */; };
-		04BB0D671D8EE8DE006585AE /* 4@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 04BB0D5E1D8EE8DE006585AE /* 4@3x.png */; };
-		04BB0D681D8EE8DE006585AE /* 5@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 04BB0D5F1D8EE8DE006585AE /* 5@3x.png */; };
-		04BB0D691D8EE8DE006585AE /* 6@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 04BB0D601D8EE8DE006585AE /* 6@3x.png */; };
-		04BB0D6A1D8EE8DE006585AE /* 7@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 04BB0D611D8EE8DE006585AE /* 7@3x.png */; };
-		04BB0D6B1D8EE8DE006585AE /* 8@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 04BB0D621D8EE8DE006585AE /* 8@3x.png */; };
-		04BB0D6C1D8EE8DE006585AE /* 9@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 04BB0D631D8EE8DE006585AE /* 9@3x.png */; };
-		04BB0D6E1D8EEA0E006585AE /* 0@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 04BB0D6D1D8EEA0E006585AE /* 0@3x.png */; };
 		133E29F31AD74F7200F7D852 /* libRCTLinking.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 78C398B91ACF4ADC00677621 /* libRCTLinking.a */; };
 		139105C61AF99C1200B5F7CC /* libRCTSettings.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 139105C11AF99BAD00B5F7CC /* libRCTSettings.a */; };
 		139FDEF61B0652A700C62182 /* libRCTWebSocket.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 139FDEF41B06529B00C62182 /* libRCTWebSocket.a */; };
@@ -141,25 +154,38 @@
 		00E356EE1AD99517003FC87E /* ExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00E356F21AD99517003FC87E /* ExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ExampleTests.m; sourceTree = "<group>"; };
+		048E39E11DA9424000ECE0BE /* 0@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "0@3x.png"; sourceTree = "<group>"; };
+		048E39E21DA9424000ECE0BE /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
+		048E39E31DA9424000ECE0BE /* 1@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "1@3x.png"; sourceTree = "<group>"; };
+		048E39E41DA9424000ECE0BE /* 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2.png; sourceTree = "<group>"; };
+		048E39E51DA9424000ECE0BE /* 2@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "2@3x.png"; sourceTree = "<group>"; };
+		048E39E61DA9424000ECE0BE /* 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 3.png; sourceTree = "<group>"; };
+		048E39E71DA9424000ECE0BE /* 3@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "3@3x.png"; sourceTree = "<group>"; };
+		048E39E81DA9424000ECE0BE /* 4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 4.png; sourceTree = "<group>"; };
+		048E39E91DA9424000ECE0BE /* 4@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "4@3x.png"; sourceTree = "<group>"; };
+		048E39EA1DA9424000ECE0BE /* 5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 5.png; sourceTree = "<group>"; };
+		048E39EB1DA9424000ECE0BE /* 5@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "5@3x.png"; sourceTree = "<group>"; };
+		048E39EC1DA9424000ECE0BE /* 6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 6.png; sourceTree = "<group>"; };
+		048E39ED1DA9424000ECE0BE /* 6@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "6@3x.png"; sourceTree = "<group>"; };
+		048E39EE1DA9424000ECE0BE /* 7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 7.png; sourceTree = "<group>"; };
+		048E39EF1DA9424000ECE0BE /* 7@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "7@3x.png"; sourceTree = "<group>"; };
+		048E39F01DA9424000ECE0BE /* 8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 8.png; sourceTree = "<group>"; };
+		048E39F11DA9424000ECE0BE /* 8@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "8@3x.png"; sourceTree = "<group>"; };
+		048E39F21DA9424000ECE0BE /* 9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 9.png; sourceTree = "<group>"; };
+		048E39F31DA9424000ECE0BE /* 9@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "9@3x.png"; sourceTree = "<group>"; };
+		048E39F41DA9424000ECE0BE /* Batman@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Batman@2x.png"; sourceTree = "<group>"; };
+		048E39F51DA9424000ECE0BE /* Doraemon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Doraemon@2x.png"; sourceTree = "<group>"; };
+		048E39F61DA9424000ECE0BE /* Mario@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Mario@2x.png"; sourceTree = "<group>"; };
+		048E39F71DA9424000ECE0BE /* Nobi Nobita@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Nobi Nobita@2x.png"; sourceTree = "<group>"; };
+		048E39F81DA9424000ECE0BE /* SlotMachineBackground.psd */ = {isa = PBXFileReference; lastKnownFileType = file; path = SlotMachineBackground.psd; sourceTree = "<group>"; };
+		048E39F91DA9424000ECE0BE /* SlotMachineBackground@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SlotMachineBackground@2x.png"; sourceTree = "<group>"; };
+		048E39FA1DA9424000ECE0BE /* SlotMachineBackground_3@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SlotMachineBackground_3@2x.png"; sourceTree = "<group>"; };
+		048E39FB1DA9424000ECE0BE /* SlotMachineCover.psd */ = {isa = PBXFileReference; lastKnownFileType = file; path = SlotMachineCover.psd; sourceTree = "<group>"; };
+		048E39FC1DA9424000ECE0BE /* SlotMachineCover@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SlotMachineCover@2x.png"; sourceTree = "<group>"; };
+		048E39FD1DA9424000ECE0BE /* SlotMachineCover_3@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SlotMachineCover_3@2x.png"; sourceTree = "<group>"; };
+		048E39FE1DA9424000ECE0BE /* StartBtn_H@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "StartBtn_H@2x.png"; sourceTree = "<group>"; };
+		048E39FF1DA9424000ECE0BE /* StartBtn_N@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "StartBtn_N@2x.png"; sourceTree = "<group>"; };
 		04BB0CE11D8EBBD0006585AE /* RNSlotMachine.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RNSlotMachine.xcodeproj; path = ../../ios/RNSlotMachine.xcodeproj; sourceTree = "<group>"; };
-		04BB0D381D8EE02F006585AE /* Batman@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Batman@2x.png"; sourceTree = "<group>"; };
-		04BB0D391D8EE02F006585AE /* Doraemon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Doraemon@2x.png"; sourceTree = "<group>"; };
-		04BB0D3A1D8EE02F006585AE /* Mario@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Mario@2x.png"; sourceTree = "<group>"; };
-		04BB0D3B1D8EE02F006585AE /* Nobi Nobita@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Nobi Nobita@2x.png"; sourceTree = "<group>"; };
-		04BB0D3C1D8EE02F006585AE /* SlotMachineBackground@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SlotMachineBackground@2x.png"; sourceTree = "<group>"; };
-		04BB0D3D1D8EE02F006585AE /* SlotMachineCover@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SlotMachineCover@2x.png"; sourceTree = "<group>"; };
-		04BB0D3E1D8EE02F006585AE /* StartBtn_H@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "StartBtn_H@2x.png"; sourceTree = "<group>"; };
-		04BB0D3F1D8EE02F006585AE /* StartBtn_N@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "StartBtn_N@2x.png"; sourceTree = "<group>"; };
-		04BB0D5B1D8EE8DE006585AE /* 1@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "1@3x.png"; sourceTree = "<group>"; };
-		04BB0D5C1D8EE8DE006585AE /* 2@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "2@3x.png"; sourceTree = "<group>"; };
-		04BB0D5D1D8EE8DE006585AE /* 3@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "3@3x.png"; sourceTree = "<group>"; };
-		04BB0D5E1D8EE8DE006585AE /* 4@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "4@3x.png"; sourceTree = "<group>"; };
-		04BB0D5F1D8EE8DE006585AE /* 5@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "5@3x.png"; sourceTree = "<group>"; };
-		04BB0D601D8EE8DE006585AE /* 6@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "6@3x.png"; sourceTree = "<group>"; };
-		04BB0D611D8EE8DE006585AE /* 7@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "7@3x.png"; sourceTree = "<group>"; };
-		04BB0D621D8EE8DE006585AE /* 8@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "8@3x.png"; sourceTree = "<group>"; };
-		04BB0D631D8EE8DE006585AE /* 9@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "9@3x.png"; sourceTree = "<group>"; };
-		04BB0D6D1D8EEA0E006585AE /* 0@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "0@3x.png"; sourceTree = "<group>"; };
 		139105B61AF99BAD00B5F7CC /* RCTSettings.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTSettings.xcodeproj; path = "../node_modules/react-native/Libraries/Settings/RCTSettings.xcodeproj"; sourceTree = "<group>"; };
 		139FDEE61B06529A00C62182 /* RCTWebSocket.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTWebSocket.xcodeproj; path = "../node_modules/react-native/Libraries/WebSocket/RCTWebSocket.xcodeproj"; sourceTree = "<group>"; };
 		13B07F961A680F5B00A75B9A /* Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -261,38 +287,51 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		048E39E01DA9424000ECE0BE /* images */ = {
+			isa = PBXGroup;
+			children = (
+				048E39E11DA9424000ECE0BE /* 0@3x.png */,
+				048E39E21DA9424000ECE0BE /* 1.png */,
+				048E39E31DA9424000ECE0BE /* 1@3x.png */,
+				048E39E41DA9424000ECE0BE /* 2.png */,
+				048E39E51DA9424000ECE0BE /* 2@3x.png */,
+				048E39E61DA9424000ECE0BE /* 3.png */,
+				048E39E71DA9424000ECE0BE /* 3@3x.png */,
+				048E39E81DA9424000ECE0BE /* 4.png */,
+				048E39E91DA9424000ECE0BE /* 4@3x.png */,
+				048E39EA1DA9424000ECE0BE /* 5.png */,
+				048E39EB1DA9424000ECE0BE /* 5@3x.png */,
+				048E39EC1DA9424000ECE0BE /* 6.png */,
+				048E39ED1DA9424000ECE0BE /* 6@3x.png */,
+				048E39EE1DA9424000ECE0BE /* 7.png */,
+				048E39EF1DA9424000ECE0BE /* 7@3x.png */,
+				048E39F01DA9424000ECE0BE /* 8.png */,
+				048E39F11DA9424000ECE0BE /* 8@3x.png */,
+				048E39F21DA9424000ECE0BE /* 9.png */,
+				048E39F31DA9424000ECE0BE /* 9@3x.png */,
+				048E39F41DA9424000ECE0BE /* Batman@2x.png */,
+				048E39F51DA9424000ECE0BE /* Doraemon@2x.png */,
+				048E39F61DA9424000ECE0BE /* Mario@2x.png */,
+				048E39F71DA9424000ECE0BE /* Nobi Nobita@2x.png */,
+				048E39F81DA9424000ECE0BE /* SlotMachineBackground.psd */,
+				048E39F91DA9424000ECE0BE /* SlotMachineBackground@2x.png */,
+				048E39FA1DA9424000ECE0BE /* SlotMachineBackground_3@2x.png */,
+				048E39FB1DA9424000ECE0BE /* SlotMachineCover.psd */,
+				048E39FC1DA9424000ECE0BE /* SlotMachineCover@2x.png */,
+				048E39FD1DA9424000ECE0BE /* SlotMachineCover_3@2x.png */,
+				048E39FE1DA9424000ECE0BE /* StartBtn_H@2x.png */,
+				048E39FF1DA9424000ECE0BE /* StartBtn_N@2x.png */,
+			);
+			name = images;
+			path = ../../ios/images;
+			sourceTree = "<group>";
+		};
 		04BB0CE21D8EBBD0006585AE /* Products */ = {
 			isa = PBXGroup;
 			children = (
 				04BB0CF01D8EBBD0006585AE /* libRNSlotMachine.a */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		04BB0D401D8EE02F006585AE /* Images */ = {
-			isa = PBXGroup;
-			children = (
-				04BB0D6D1D8EEA0E006585AE /* 0@3x.png */,
-				04BB0D5B1D8EE8DE006585AE /* 1@3x.png */,
-				04BB0D5C1D8EE8DE006585AE /* 2@3x.png */,
-				04BB0D5D1D8EE8DE006585AE /* 3@3x.png */,
-				04BB0D5E1D8EE8DE006585AE /* 4@3x.png */,
-				04BB0D5F1D8EE8DE006585AE /* 5@3x.png */,
-				04BB0D601D8EE8DE006585AE /* 6@3x.png */,
-				04BB0D611D8EE8DE006585AE /* 7@3x.png */,
-				04BB0D621D8EE8DE006585AE /* 8@3x.png */,
-				04BB0D631D8EE8DE006585AE /* 9@3x.png */,
-				04BB0D381D8EE02F006585AE /* Batman@2x.png */,
-				04BB0D391D8EE02F006585AE /* Doraemon@2x.png */,
-				04BB0D3A1D8EE02F006585AE /* Mario@2x.png */,
-				04BB0D3B1D8EE02F006585AE /* Nobi Nobita@2x.png */,
-				04BB0D3C1D8EE02F006585AE /* SlotMachineBackground@2x.png */,
-				04BB0D3D1D8EE02F006585AE /* SlotMachineCover@2x.png */,
-				04BB0D3E1D8EE02F006585AE /* StartBtn_H@2x.png */,
-				04BB0D3F1D8EE02F006585AE /* StartBtn_N@2x.png */,
-			);
-			name = Images;
-			path = ../../ios;
 			sourceTree = "<group>";
 		};
 		139105B71AF99BAD00B5F7CC /* Products */ = {
@@ -314,7 +353,7 @@
 		13B07FAE1A68108700A75B9A /* Example */ = {
 			isa = PBXGroup;
 			children = (
-				04BB0D401D8EE02F006585AE /* Images */,
+				048E39E01DA9424000ECE0BE /* images */,
 				008F07F21AC5B25A0029DE68 /* main.jsbundle */,
 				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
 				13B07FB01A68108700A75B9A /* AppDelegate.m */,
@@ -600,26 +639,39 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				04BB0D6B1D8EE8DE006585AE /* 8@3x.png in Resources */,
-				04BB0D671D8EE8DE006585AE /* 4@3x.png in Resources */,
-				04BB0D6E1D8EEA0E006585AE /* 0@3x.png in Resources */,
-				04BB0D651D8EE8DE006585AE /* 2@3x.png in Resources */,
+				048E3A0B1DA9424000ECE0BE /* 6.png in Resources */,
+				048E3A171DA9424000ECE0BE /* SlotMachineBackground.psd in Resources */,
+				048E3A061DA9424000ECE0BE /* 3@3x.png in Resources */,
+				048E3A1A1DA9424000ECE0BE /* SlotMachineCover.psd in Resources */,
+				048E3A031DA9424000ECE0BE /* 2.png in Resources */,
+				048E3A0A1DA9424000ECE0BE /* 5@3x.png in Resources */,
+				048E3A041DA9424000ECE0BE /* 2@3x.png in Resources */,
+				048E3A1D1DA9424000ECE0BE /* StartBtn_H@2x.png in Resources */,
+				048E3A1C1DA9424000ECE0BE /* SlotMachineCover_3@2x.png in Resources */,
+				048E3A141DA9424000ECE0BE /* Doraemon@2x.png in Resources */,
+				048E3A001DA9424000ECE0BE /* 0@3x.png in Resources */,
+				048E3A191DA9424000ECE0BE /* SlotMachineBackground_3@2x.png in Resources */,
+				048E3A0F1DA9424000ECE0BE /* 8.png in Resources */,
+				048E3A051DA9424000ECE0BE /* 3.png in Resources */,
+				048E3A151DA9424000ECE0BE /* Mario@2x.png in Resources */,
+				048E3A011DA9424000ECE0BE /* 1.png in Resources */,
+				048E3A161DA9424000ECE0BE /* Nobi Nobita@2x.png in Resources */,
+				048E3A021DA9424000ECE0BE /* 1@3x.png in Resources */,
+				048E3A101DA9424000ECE0BE /* 8@3x.png in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
-				04BB0D471D8EE02F006585AE /* StartBtn_H@2x.png in Resources */,
-				04BB0D451D8EE02F006585AE /* SlotMachineBackground@2x.png in Resources */,
-				04BB0D461D8EE02F006585AE /* SlotMachineCover@2x.png in Resources */,
-				04BB0D421D8EE02F006585AE /* Doraemon@2x.png in Resources */,
-				04BB0D481D8EE02F006585AE /* StartBtn_N@2x.png in Resources */,
-				04BB0D641D8EE8DE006585AE /* 1@3x.png in Resources */,
-				04BB0D6C1D8EE8DE006585AE /* 9@3x.png in Resources */,
-				04BB0D441D8EE02F006585AE /* Nobi Nobita@2x.png in Resources */,
+				048E3A1B1DA9424000ECE0BE /* SlotMachineCover@2x.png in Resources */,
+				048E3A081DA9424000ECE0BE /* 4@3x.png in Resources */,
+				048E3A111DA9424000ECE0BE /* 9.png in Resources */,
+				048E3A091DA9424000ECE0BE /* 5.png in Resources */,
+				048E3A121DA9424000ECE0BE /* 9@3x.png in Resources */,
+				048E3A0E1DA9424000ECE0BE /* 7@3x.png in Resources */,
+				048E3A181DA9424000ECE0BE /* SlotMachineBackground@2x.png in Resources */,
+				048E3A1E1DA9424000ECE0BE /* StartBtn_N@2x.png in Resources */,
+				048E3A131DA9424000ECE0BE /* Batman@2x.png in Resources */,
+				048E3A0C1DA9424000ECE0BE /* 6@3x.png in Resources */,
+				048E3A071DA9424000ECE0BE /* 4.png in Resources */,
 				13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */,
-				04BB0D431D8EE02F006585AE /* Mario@2x.png in Resources */,
-				04BB0D6A1D8EE8DE006585AE /* 7@3x.png in Resources */,
-				04BB0D691D8EE8DE006585AE /* 6@3x.png in Resources */,
-				04BB0D681D8EE8DE006585AE /* 5@3x.png in Resources */,
-				04BB0D411D8EE02F006585AE /* Batman@2x.png in Resources */,
-				04BB0D661D8EE8DE006585AE /* 3@3x.png in Resources */,
+				048E3A0D1DA9424000ECE0BE /* 7.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
