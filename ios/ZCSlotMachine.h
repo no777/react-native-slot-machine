@@ -41,10 +41,11 @@
 
 // You can use this property to control the spinning speed, default to 0.14f
 @property (nonatomic) CGFloat singleUnitDuration;
+@property (nonatomic) BOOL isSliding;
 
 @property (nonatomic, weak) id <ZCSlotMachineDelegate> delegate;
 @property (nonatomic, weak) id <ZCSlotMachineDataSource> dataSource;
-
+- (void)reloadData ;
 - (void)startSliding;
 
 @end

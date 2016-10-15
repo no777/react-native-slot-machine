@@ -5,7 +5,6 @@
 
 #define SHOW_BORDER 0
 
-static BOOL isSliding = NO;
 static const NSUInteger kMinTurn = 3;
 
 /********************************************************************************************/
@@ -22,9 +21,11 @@ static const NSUInteger kMinTurn = 3;
     // Data
     NSArray *_slotResults;
     NSArray *_currentSlotResults;
-    
+    BOOL isSliding;
     __weak id<ZCSlotMachineDataSource> _dataSource;
 }
+
+@synthesize isSliding;
 
 #pragma mark - View LifeCycle
 
@@ -53,6 +54,7 @@ static const NSUInteger kMinTurn = 3;
         _slotScrollLayerArray = [NSMutableArray array];
         
         self.singleUnitDuration = 0.0514f;
+      isSliding = NO;
         
         _contentInset = UIEdgeInsetsMake(0, 0, 0, 0);
     }
@@ -129,11 +131,11 @@ static const NSUInteger kMinTurn = 3;
         
         for (int i = 0; i < numberOfSlots; i++) {
             CALayer *slotContainerLayer = [[CALayer alloc] init];
-            slotContainerLayer.frame = CGRectMake(i * (slotWidth + slotSpacing), 0, slotWidth, _contentView.frame.size.height);
+            slotContainerLayer.frame = CGRectMake(i * (slotWidth + slotSpacing),0, slotWidth, _contentView.frame.size.height/3);
             slotContainerLayer.masksToBounds = YES;
             
             CALayer *slotScrollLayer = [[CALayer alloc] init];
-            slotScrollLayer.frame = CGRectMake(0, 0, slotWidth, _contentView.frame.size.height);
+            slotScrollLayer.frame = CGRectMake(0, -_contentView.frame.size.height/3, slotWidth, _contentView.frame.size.height);
 #if SHOW_BORDER
             slotScrollLayer.borderColor = [UIColor greenColor].CGColor;
             slotScrollLayer.borderWidth = 1;
@@ -173,6 +175,7 @@ static const NSUInteger kMinTurn = 3;
                 [slotScrollLayer addSublayer:iconImageLayer];
             }
         }
+      isSliding = NO;
     }
 }
 
@@ -183,7 +186,8 @@ static const NSUInteger kMinTurn = 3;
     if (isSliding) {
         return;
     }
-    else {
+    else
+    {
         isSliding = YES;
         
         if ([self.delegate respondsToSelector:@selector(slotMachineWillStartSliding:)]) {

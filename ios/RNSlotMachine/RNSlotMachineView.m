@@ -28,19 +28,35 @@
   if (self){
     CGSize size = CGSizeMake(48,48);
     _slotIcons = [NSArray arrayWithObjects:
-                  [[UIImage imageNamed:@"0"] scaleToSize:size] ,
-                  [[UIImage imageNamed:@"1"] scaleToSize:size] ,
-                  [[UIImage imageNamed:@"2"] scaleToSize:size] ,
-                  [[UIImage imageNamed:@"3"] scaleToSize:size] ,
-                  [[UIImage imageNamed:@"4"] scaleToSize:size] ,
-                  [[UIImage imageNamed:@"5"] scaleToSize:size] ,
-                  [[UIImage imageNamed:@"6"] scaleToSize:size] ,
-                  [[UIImage imageNamed:@"7"] scaleToSize:size] ,
-                  [[UIImage imageNamed:@"8"] scaleToSize:size] ,
-                  [[UIImage imageNamed:@"9"] scaleToSize:size] ,
+                  [UIImage imageNamed:@"0"] ,
+                  [UIImage imageNamed:@"1"] ,
+                  [UIImage imageNamed:@"2"] ,
+                  [UIImage imageNamed:@"3"] ,
+                  [UIImage imageNamed:@"4"] ,
+                  [UIImage imageNamed:@"5"] ,
+                  [UIImage imageNamed:@"6"] ,
+                  [UIImage imageNamed:@"7"] ,
+                  [UIImage imageNamed:@"8"] ,
+                  [UIImage imageNamed:@"9"] ,
+
+//                  [[UIImage imageNamed:@"0"] scaleToSize:size] ,
+//                  [[UIImage imageNamed:@"1"] scaleToSize:size] ,
+//                  [[UIImage imageNamed:@"2"] scaleToSize:size] ,
+//                  [[UIImage imageNamed:@"3"] scaleToSize:size] ,
+//                  [[UIImage imageNamed:@"4"] scaleToSize:size] ,
+//                  [[UIImage imageNamed:@"5"] scaleToSize:size] ,
+//                  [[UIImage imageNamed:@"6"] scaleToSize:size] ,
+//                  [[UIImage imageNamed:@"7"] scaleToSize:size] ,
+//                  [[UIImage imageNamed:@"8"] scaleToSize:size] ,
+//                  [[UIImage imageNamed:@"9"] scaleToSize:size] ,
                   nil];
-    self.slotWidth = 444/2;
-    self.slotHeight=386/2;
+    self.slotWidth = frame.size.width;
+    self.slotHeight=frame.size.height;
+    if(self.slotWidth==0){
+      self.slotWidth=222;
+      self.slotHeight=193;
+      
+    }
 //    NSInteger width=291;
 //    NSInteger height=193;
     
@@ -49,11 +65,11 @@
     //  _slotMachine.center = CGPointMake(640 / 2, 120);
     _slotMachine.autoresizingMask = UIViewAutoresizingFlexibleLeftMargin | UIViewAutoresizingFlexibleRightMargin;
     _slotMachine.contentInset = UIEdgeInsetsMake(5, 8, 5, 8);
-    _slotMachine.backgroundImage = [[UIImage imageNamed:@"SlotMachineBackground_3"] scaleToSize:CGSizeMake(self.slotWidth, self.slotHeight)];
-    _slotMachine.coverImage = [[UIImage imageNamed:@"SlotMachineCover_3"] scaleToSize:CGSizeMake(self.slotWidth, self.slotHeight)];
+//    _slotMachine.backgroundImage = [[UIImage imageNamed:@"SlotMachineBackground_3"] scaleToSize:CGSizeMake(self.slotWidth, self.slotHeight)];
+//    _slotMachine.coverImage = [[UIImage imageNamed:@"SlotMachineCover_3"] scaleToSize:CGSizeMake(self.slotWidth, self.slotHeight)];
+//    _slotMachine.dataSource = self;
     _slotMachine.delegate = self;
-    _slotMachine.dataSource = self;
-    
+
     [self addSubview:_slotMachine];
     
     //        UnityAppController * contrlloer =GetAppController ();
@@ -68,10 +84,19 @@
 -(void)layoutSubviews
 {
   [super layoutSubviews];
-  [self.slotMachine removeFromSuperview];
   self.slotMachine.frame = self.bounds;
+
+  self.slotWidth = self.slotMachine.frame.size.width;
+  self.slotHeight =self.slotMachine.frame.size.height;
+  _slotMachine.dataSource = self;
+  [self.slotMachine removeFromSuperview];
+  
   [self insertSubview:self.slotMachine atIndex:0];
+
+//  [self.slotMachine reloadData];
   [self.slotMachine setNeedsLayout];
+  
+  
 }
 
 -(void) start:(NSArray * ) result
@@ -143,7 +168,8 @@
 }
 
 - (CGFloat)slotWidthInSlotMachine:(ZCSlotMachine *)slotMachine {
-  return (self.slotWidth -10) /3 -4.0;
+  CGFloat w = [[UIScreen mainScreen] bounds].size.width;
+  return (self.slotWidth -10) /3 - (w*6.0/414.0);
 //  return 65.0f;
 }
 
